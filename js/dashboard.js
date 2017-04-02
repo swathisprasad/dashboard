@@ -30,11 +30,11 @@ function firstChart() {
 		data: {
 			labels: ["A", "B", "C", "O", "G", "W", "S"],
 			datasets: [{
-				label: 'Mercedes',
+				label: 'Company A',
 				data: [12, 19, 3, 17, 6, 3, 7],
 				backgroundColor: "rgba(182, 213, 139, 0.5)"
 			}, {
-				label: 'BMW',
+				label: 'Company B',
 				data: [2, 29, 5, 5, 2, 3, 10],
 				backgroundColor: "rgba(182, 133, 139, 1)"
 			}]
@@ -49,11 +49,11 @@ function secondChart() {
 		data: {
 			labels: ["A", "B", "C", "O", "G", "W", "S"],
 			datasets: [{
-				label: 'Volkswagen',
+				label: 'Company C',
 				data: [12, 20, 3, 17, 30, 24, 7],
 				backgroundColor: "rgba(195, 161, 174, 1)"
 			}, {
-				label: 'Porsche',
+				label: 'Company D',
 				data: [35, 25, 5, 5, 21, 3, 10],
 				backgroundColor: "rgba(119, 150, 143, 1)"
 			}]
